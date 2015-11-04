@@ -21,3 +21,24 @@ html {
     min-width: 100px;
 }
 /*Need to come back and fix this button. Not centering at 240 becase of the min-width*/
+
+.media-obj img {
+	margin-left: 1.3rem;
+}
+
+
+
+
+@media only screen and (min-width: 38em) {
+
+	.media-obj img {
+		margin-left: 1.4rem;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+
+	.media-obj img {
+		margin-left: 1.5rem;
+	}
+}

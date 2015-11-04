@@ -30,20 +30,99 @@
 </header>
 <main>
 
-<h2 class="tera">Sign Up</h2>
+<h2 class="tera text-center">Sign Up</h2>
+
+<div class="grid">
+	<div class="unit gutter xs-1 s-1">
+
 
 
 <h3 class="kilo">Personal information</h3>
-<p>The form goes here</p>
 
-<h3 class="kilo">Credit Card information</h3>
-<p>The form goes here</p>
+<form method="post">
+	<label for="email">Email address</label>
+	<input type="email" id="email" placeholder="jimbobson@here.com" required>
 
 
-<h3 class="kilo">Choose your plan</h3>
-<p>The form goes here</p>
+	<label for="first-name">First Name</label>
+	<input type="text" id="first-name" placeholder="Jim" required>
 
-<a class="btn" href="thankyou.html">Submit</a>
+
+	<label for="last-name">Last Name</label>
+	<input type="text" id="last-name" placeholder="Bobson" required>
+
+	<label for="tel">Phone Number</label>
+	<input type="tel" id="tel" placeholder="555-555-5555" required>		
+	
+	<label for="st-add">Street address</label>
+	<input type="text" id="st-add" placeholder="123 Road St." required>
+	
+	<label for="city">City</label>
+	<input type="text" id="city" placeholder="Ottawa" required>
+
+	<label for="province">Province</label>
+	<input id="province" list="province-list" placeholder="Ontario" required>
+	<datalist id="province-list">
+		<option value="Alberta">
+		<option value="Ontario">
+		<option value="Québec">
+		<option value="Nova Scotia">
+		<option value="New Brunswick">
+		<option value="Prince Edward Island">
+		<option value="Quebec">
+		<option value="Manitoba">
+		<option value="British Columbia">
+		<option value="Northwest Territories">
+		<option value="Yukon">
+		<option value="Nunavut">
+		<option value="Saskatchewan">
+		<option value="Newfoundland and Labrador">
+	</datalist>
+	
+		<label for="country">Country</label>
+		<input type="text" id="country" placeholder="Canada" required>
+		
+		<label for="postal code">Postal Code</label>
+		<input type="text" id="postal code" placeholder="K0A 2Z0" pattern="[A-Z][0-9][A-Z][0-9][A-Z][0-9]"required>
+
+
+		</form>
+	</div>
+
+	<div class="unit gutter xs-1 s-1">
+		<h3 class="kilo">Credit Card information</h3>
+		<p>Credit Card Number</p>
+		<p>Expiration</p>
+		<p>CVV</p>
+	</div>
+
+
+	<div class="unit cs-1 s-1 gutter">
+		<fieldset class="gutter">
+			<legend class="push">Choose Your Plan</legend>
+			<ul class="list-group">
+				<li class="push-1-2">
+					<input type="radio" id="level 1" name="level">
+		  			<label for="level 1">Level 1</label>
+				</li>
+				<li class="push-1-2">
+					<input type="radio" id="level 2" name="level">
+		  			<label for="level 2">Level 2</label>
+		  		</li>
+		  		<li class="push-1-2">
+		  			<input type="radio" id="level 3" name="level">
+		  			<label for="level 3">Level 3</label>
+				</li>
+				<li>
+		  			<input type="radio" id="level 4" name="level">
+		  			<label for="level 4">Level 4</label>
+		  		</li>
+  			</ul>
+		</fieldset>
+	</div>
+</div>
+
+<button class="btn c-btn push-2" type="submit">Submit</button>
 
 
 
