@@ -1,7 +1,7 @@
 /*!
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;accessibility;print
+ * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;buttons;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -233,6 +233,46 @@ svg {
 
 .icon-link, .icon-link:hover {
   text-decoration: none;
+}
+
+.link-box {
+  display: block;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.375em 0.75em 0.42em;
+  background-color: #333;
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn--light {
+  background-color: #e2e2e2;
+  color: #000;
+}
+
+.btn--light:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn--ghost {
+  background-color: transparent;
+  border: 3px solid #333;
+  color: #000;
+}
+
+.btn--ghost:hover {
+  border-color: #000;
 }
 
 a:hover, a:active {
