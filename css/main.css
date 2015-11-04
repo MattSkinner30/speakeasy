@@ -12,3 +12,12 @@ html {
 	-webkit-text-size-adjust: 100%;
 	font-family: sans-serif;
 }
+
+.c-btn {
+	position: relative;
+    left: 35%;
+    width: 30%;
+    text-align: center;
+    min-width: 100px;
+}
+/*Need to come back and fix this button. Not centering at 240 becase of the min-width*/
