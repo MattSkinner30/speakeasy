@@ -19,11 +19,24 @@ html {
     width: 30%;
     text-align: center;
     min-width: 100px;
+    letter-spacing: 1;
 }
 /*Need to come back and fix this button. Not centering at 240 becase of the min-width*/
 
 .media-obj img {
 	margin-left: 1.3rem;
+}
+
+label {
+	letter-spacing: 1;
+}
+
+footer {
+	background-color: #ccc;
+}
+
+header a, footer a {
+	text-decoration: none;
 }
 
 
