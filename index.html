@@ -11,13 +11,21 @@
 	<meta name="mobileoptimized" content="240">
 </head>
 <body>
-<header class="push">
+
+
+<ul class="skip-links">
+	<li><a href="#main">Jump to main content</a></li>
+	<li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+
+<header class="push" role="banner">
 <div class="grid gutter pad-top">
 	<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-		<h1 class="giga text=left">Speakeasy</h1>
+		<a href="index.html"><h1 class="giga text-left">Speakeasy</h1><a>
 	</div>
 	<div class="grid xs-1-2 s-1-2 m-1-2 l-1-2">
-		<nav>
+		<nav role="navigation" id="nav">
 			<ul class="list-group list-group--inline text-center">
 				<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="index.html">Home</a></li>
 				<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="signup.html">Sign Up</a></li>
@@ -31,14 +39,7 @@
 
 <!-- I will be putting the nav in a hamburger style menu on the small and medium sized screens-->
 
-
-
-
-
-
-
-
-<main>
+<main role="main" id="main">
 	<h2 class="tera text-center">Play your way to a new language!</h2>
 	<p class="text-center">Start learning through a variety of games and activities.</p>
 	<a class="btn c-btn push" href="signup.html">Register</a>
@@ -46,10 +47,7 @@
 		<img class="embed__item" src="images/map.svg" alt="a yellow map of the world.">
 	</div>
 
-
-
 	<h4 class="text-center pad-t">Over 100 Different Languages</h4>
-
 
 <div class="grid gutter text-center m-1 l-1 push-2">
 	<div class="grid xs-1 s-1">
@@ -110,13 +108,7 @@
 	</div>
 </div>
 
-
-
-
-
-
 <div class="grid">
-
 
 	<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter push-2">
 		<h3 class="text-center">Take the Tour</h3>
@@ -135,27 +127,18 @@
 </main>
 
 
-	<footer class="pad-b pad-t">
-		<ul class="grid list-group list-group--inline text-center">
+	<footer class="pad-t">
+		<ul class="grid list-group list-group--inline text-center push">
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="index.html">Home</a></li>
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="signup.html">Sign Up</a></li>
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="tour.html">Tour</a></li>
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="plans.html">Plans</a></li>
 		</ul>
+
+		<div class="pad-b-1-2 text-center" role="contentinfo">
+			<p>© 2015 Matt Skinner Design</p>
+		</div>
 	</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>

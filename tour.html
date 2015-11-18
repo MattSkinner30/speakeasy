@@ -11,13 +11,23 @@
 	<meta name="mobileoptimized" content="240">
 </head>
 <body>
-<header class="push">
+
+
+
+<ul class="skip-links">
+	<li><a href="#main">Jump to main content</a></li>
+	<li><a href="#nav">Jump to navigation</a></li>
+</ul>
+
+
+
+<header class="push" role="banner">
 <div class="grid gutter pad-top">
 	<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-		<h1 class="giga text=left">Speakeasy</h1>
+		<a href="index.html"><h1 class="giga text-left">Speakeasy</h1><a>
 	</div>
 	<div class="grid xs-1-2 s-1-2 m-1-2 l-1-2">
-		<nav>
+		<nav id="nav">
 			<ul class="list-group list-group--inline text-center">
 				<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="index.html">Home</a></li>
 				<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="signup.html">Sign Up</a></li>
@@ -75,13 +85,17 @@
 
 </main>
 
-	<footer class="pad-b pad-t">
-		<ul class="grid list-group list-group--inline text-center">
+	<footer class="pad-t">
+		<ul class="grid list-group list-group--inline text-center push">
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="index.html">Home</a></li>
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="signup.html">Sign Up</a></li>
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="tour.html">Tour</a></li>
 			<li class="unit xs-1-4 s-1-4 m-1-4 l-1-4"><a href="plans.html">Plans</a></li>
 		</ul>
+
+		<div class="pad-b-1-2 text-center" role="contentinfo">
+			<p>© 2015 Matt Skinner Design</p>
+		</div>
 	</footer>
 </body>
 </html>
