@@ -27,9 +27,15 @@ body {
 
 }
 
-h1, h2, h3, h4, p, li, a {
+h1, h2, h3, h4, p, li, a, label {
 	color: white;
 }
+
+
+footer p, footer a{
+	color: white;
+}
+
 .c-btn {
 	position: relative;
     left: 35%;
@@ -56,8 +62,15 @@ header a, footer a {
 	text-decoration: none;
 }
 
+label {
+	display: block;
+	cursor: pointer;
+}
 
-
+.wider-input {
+	width: 75%;
+	min-width: 175px;
+}
 
 @media only screen and (min-width: 38em) {
 
