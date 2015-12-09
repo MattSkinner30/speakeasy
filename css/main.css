@@ -1,8 +1,17 @@
 /*
-Main Blue #0048de
+Main Blue #014bb9
 Dark Blue #230962
 Red 1 #ef4130
+Hover Red #c72824
 Yellow #ecc01c
+
+
+font-family: 'Sniglet', cursive;
+
+font-family: 'Lato', sans-serif;
+
+font-family: 'Droid Serif', serif;
+
 */
 
 
@@ -19,30 +28,59 @@ html {
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-	font-family: sans-serif;
 }
 
 body {
-	background-color: #0048de;
+	background-color: #014BB9;
 
 }
+
+h1 {
+	font-family: 'Sniglet', cursive;
+}
+
+p, li {
+	font-family: 'Droid Serif', serif;
+	font-weight: normal;
+}
+
+h2, h3, h4, a, label {
+	font-family: 'Lato', sans-serif;
+}
+
 
 h1, h2, h3, h4, p, li, a, label {
 	color: white;
 }
 
+.rule-below {
+	border-bottom: 1px solid white;
+}
+
+.footer-max-width {
+	max-width: 700px;
+    margin: auto;
+}
 
 footer p, footer a{
 	color: white;
 }
 
 .c-btn {
-	position: relative;
-    left: 35%;
-    width: 30%;
-    text-align: center;
-    min-width: 100px;
-    letter-spacing: 1;
+	margin: 0 auto;
+	display: block;
+}
+
+.btn-style {
+	background-color: #ef4130;
+	border-radius: 100px;
+	text-align: center;
+	letter-spacing: 1;
+	width: 10em;
+}
+
+.btn-style:hover {
+	background-color: #c72824;
 }
 /*Need to come back and fix this button. Not centering at 240 becase of the min-width*/
 
@@ -71,6 +109,21 @@ label {
 	width: 75%;
 	min-width: 175px;
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 18em) {
+	.btn-style {
+		width: 15em;
+	}
+}
+
+
+
 
 @media only screen and (min-width: 38em) {
 
