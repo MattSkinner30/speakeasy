@@ -12,8 +12,29 @@ font-family: 'Lato', sans-serif;
 
 font-family: 'Droid Serif', serif;
 
-*/
+STILL TO DO
 
+ALL
+make the hamburger
+
+TOUR
+Make icons less shitty
+do something with the bottom part of tour
+button on the bottom of tour
+START FOR FREE on the tour page should be made into something more substantial
+
+PLANS
+Look at spacing, it's all fuckey right now
+add a button to each of the plan options, not just one at the bottom
+make the level headers more noticeable, they insignificant right now
+
+FORMS
+Maybe make the section headers a little bigger (personal info, address, etc.)
+Make the button not so shitty
+Make the shitty button actually link to the thank you page.
+
+
+*/
 
 
 @-moz-viewport {width: device-width; scale: 1;}
@@ -55,6 +76,8 @@ h1, h2, h3, h4, p, li, a, label {
 
 .rule-below {
 	border-bottom: 1px solid white;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .footer-max-width {
@@ -64,25 +87,38 @@ h1, h2, h3, h4, p, li, a, label {
 
 footer p, footer a{
 	color: white;
+	margin-bottom: 0;
 }
 
-.c-btn {
-	margin: 0 auto;
-	display: block;
+.border{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	height: 35em;
 }
-
 .btn-style {
 	background-color: #ef4130;
 	border-radius: 100px;
 	text-align: center;
 	letter-spacing: 1;
 	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
+.btn-style-2 {
+	background-color: #ef4130;
+	border-radius: 100px;
+	text-align: center;
+	letter-spacing: 1;
+	width: 8em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 .btn-style:hover {
 	background-color: #c72824;
 }
-/*Need to come back and fix this button. Not centering at 240 becase of the min-width*/
 
 .media-obj img {
 	margin-left: 1.3rem;
@@ -109,11 +145,6 @@ label {
 	width: 75%;
 	min-width: 175px;
 }
-
-
-
-
-
 
 
 @media only screen and (min-width: 18em) {
@@ -143,6 +174,4 @@ label {
 		margin-right: 10%;
 	}
 
-	footer ul {
-	}
 }
