@@ -12,28 +12,6 @@ font-family: 'Lato', sans-serif;
 
 font-family: 'Droid Serif', serif;
 
-STILL TO DO
-
-ALL
-make the hamburger
-
-TOUR
-Make icons less shitty
-do something with the bottom part of tour
-button on the bottom of tour
-START FOR FREE on the tour page should be made into something more substantial
-
-PLANS
-Look at spacing, it's all fuckey right now
-add a button to each of the plan options, not just one at the bottom
-make the level headers more noticeable, they insignificant right now
-
-FORMS
-Maybe make the section headers a little bigger (personal info, address, etc.)
-Make the button not so shitty
-Make the shitty button actually link to the thank you page.
-
-
 */
 
 
@@ -53,7 +31,6 @@ html {
 
 body {
 	background-color: #014BB9;
-
 }
 
 h1 {
